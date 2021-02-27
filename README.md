@@ -17,6 +17,7 @@ int main()
 
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week1-1%E6%89%BE%E9%9B%B6%E9%8C%A2.png)
 ### 第2題 基礎題 因數個數
 ```c
 #include <stdio.h>
