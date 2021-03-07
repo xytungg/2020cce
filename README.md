@@ -1,5 +1,5 @@
 # 2020cce
-## 第1週實習課程式
+## 第1週程式(實習課)
 ### 第1題 基礎題 找零錢
 ```c
 #include <stdio.h>
@@ -80,3 +80,6 @@ int main()
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week1-5%E5%88%86%E5%BC%8F%E5%8C%96%E7%B0%A1.png)
+
+## 第2週程式(實習課)
+### 第1題 進階題 讀入整數反序列印
