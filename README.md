@@ -83,3 +83,118 @@ int main()
 
 ## 第2週程式(實習課)
 ### 第1題 進階題 讀入整數反序列印
+```c
+#include <stdio.h>
+int a[10];
+int main()
+{
+	int n;
+	for(int i=0; i<10; i++){
+		scanf("%d", &a[i]);
+		if(a[i]==0){
+		n=i;
+		break;
+	}
+}
+	for(int i=n-1;i>=0;i--){
+		printf("%d ", a[i]);
+	}
+	printf("\n");
+}
+```
+![image]()
+### 第2題 進階題 A的B次方函數
+```c
+#include <stdio.h>
+int MYPOWER (int a, int b)
+{
+	int ans=1;
+	for(int i=1; i<=b; i++){
+		ans = ans *a;
+		}
+		return ans;
+}
+int main(void)
+{
+	int a,b;
+	scanf("%d%d",&a,&b);
+	printf("[%d]",MYPOWER(a,b));
+	return 0;
+}
+```
+![image]()
+### 第3題 進階題 漸增數列相加
+```c
+#include <stdio.h>
+int main()
+{
+	int n, ans=0;
+	scanf("%d", &n);
+	for(int i=1; i<n; i++){
+		ans=ans+i*(i+1);
+	
+	}
+	printf("%d\n", ans);
+}
+```
+![image]()
+### 第4題 基礎題 判別正方形
+```c
+#include <stdio.h>
+int main()
+{
+	int a, b;
+	scanf("%d%d", &a, &b);
+	if(a==b) printf("Enter two numbers:  It is a square ");
+	else printf("Enter two numbers:  It is not a square ");
+
+}
+```
+![image]()
+### 第5題 進階題 2進位轉10進位
+```c
+#include <stdio.h>
+int main()
+{
+	int a;
+	scanf("%d", &a);
+	if(a==0)printf("0\n");
+	else if(a==1)printf("1\n");
+	else if(a==10)printf("2\n");
+	else if(a==11)printf("3\n");
+	else if(a==100)printf("4\n");
+	else if(a==101)printf("5\n");
+	else if(a==110)printf("6\n");
+	else if(a==111)printf("7\n");
+	else if(a==1000)printf("8\n");
+	else if(a==1001)printf("9\n");
+	else if(a==1010)printf("10\n");
+	else if(a==1011)printf("11\n");
+	else if(a==1100)printf("12\n");
+	else if(a==1101)printf("13\n");
+	else if(a==1110)printf("14\n");
+	else if(a==1111)printf("15\n");
+}
+```
+![image]()
+### 第6題 進階題 均標與前標計算
+```c
+#include <stdio.h>
+int main()
+{
+	float a[100],N, all=0, t=0, x=0;
+	scanf("%f", &N);
+	for(int i=0; i<=N; i++){
+		scanf("%f", &a[i]);
+		all += a[i];
+	}
+	for(int i=0;i<=N; i++){
+		if(a[i]>=all/N){
+			t += a[i];
+			x++;
+		}
+	}
+	printf("均標:%0.1f\n前標:%0.1f\n", all/N, t/x);
+}
+```
+![image]()
