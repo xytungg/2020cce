@@ -102,7 +102,7 @@ int main()
 	printf("\n");
 }
 ```
-![image]()
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week2-1%E8%AE%80%E5%85%A5%E6%95%B4%E6%95%B8%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8D%B0.png)
 ### 第2題 進階題 A的B次方函數
 ```c
 #include <stdio.h>
@@ -122,7 +122,7 @@ int main(void)
 	return 0;
 }
 ```
-![image]()
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week2-2%20A%E7%9A%84B%E6%AC%A1%E6%96%B9%E5%87%BD%E6%95%B8.png)
 ### 第3題 進階題 漸增數列相加
 ```c
 #include <stdio.h>
@@ -137,7 +137,7 @@ int main()
 	printf("%d\n", ans);
 }
 ```
-![image]()
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week2-3%E6%BC%B8%E5%A2%9E%E6%95%B8%E5%88%97%E7%9B%B8%E5%8A%A0.png)
 ### 第4題 基礎題 判別正方形
 ```c
 #include <stdio.h>
@@ -150,7 +150,7 @@ int main()
 
 }
 ```
-![image]()
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week2-4%E5%88%A4%E5%88%A5%E6%AD%A3%E6%96%B9%E5%BD%A2%20.png)
 ### 第5題 進階題 2進位轉10進位
 ```c
 #include <stdio.h>
@@ -176,7 +176,7 @@ int main()
 	else if(a==1111)printf("15\n");
 }
 ```
-![image]()
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week2-5%202%E9%80%B2%E4%BD%8D%E8%BD%8910%E9%80%B2%E4%BD%8D%20.png)
 ### 第6題 進階題 均標與前標計算
 ```c
 #include <stdio.h>
@@ -197,4 +197,4 @@ int main()
 	printf("均標:%0.1f\n前標:%0.1f\n", all/N, t/x);
 }
 ```
-![image]()
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week2-6%E5%9D%87%E6%A8%99%E8%88%87%E5%89%8D%E6%A8%99%E8%A8%88%E7%AE%97%20.png)
