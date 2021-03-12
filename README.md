@@ -217,7 +217,7 @@ int main()
 	printf("\n");
 }
 ```
-![image]()
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week3/week3-1.png)
 ### 第2題 進階題 大小寫轉換
 ```c
 #include <stdio.h>
@@ -237,7 +237,7 @@ int main()
 	printf("\n");
 }
 ```
-![image]()
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week3/week3-2.png)
 ### 第3題 基礎題 計算幾週與幾天
 ```c
 #include <stdio.h>
@@ -255,7 +255,7 @@ int main()
 ### 第4題 基礎題 計程車資計算
 ```c
 #include <stdio.h>
-int main()
+int main(https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week3/week3-3.png)
 {
 	int n;
 	scanf("%d", &n);
@@ -264,7 +264,7 @@ int main()
 
 }
 ```
-![image]()
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week3/week3-4.png)
 ### 第5題 基礎題 兩數間可被5整除的整數
 ```c
 #include <stdio.h>
@@ -282,7 +282,7 @@ int main()
 	}
 }
 ```
-![image]()
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week3/week3-5.png)
 ### 第6題 基礎題 整數間最大距離
 ```c
 #include <stdio.h>
@@ -302,4 +302,4 @@ int main()
 	printf("%d\n", max-min);
 }
 ```
-![image]()
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week3/week3-6.png)
