@@ -13,5 +13,5 @@ int main()
 			x++;
 		}
 	}
-	printf("§¡¼Ğ:%0.1f\n«e¼Ğ:%0.1f\n", all/N, t/x);
+	printf("Â§Â¡Â¼Ã:%0.1f\nÂ«eÂ¼Ã:%0.1f\n", all/N, t/x);
 }
