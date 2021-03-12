@@ -318,7 +318,7 @@ int main()
 
 }
 ```
-![image]()
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week3/week3-1(%E8%AA%B2).png)
 ### 第2題
 ```c
 #include <stdio.h>
@@ -345,7 +345,7 @@ int main()
 
 }
 ```
-![image]()
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week3/week3-2(%E8%AA%B2).png)
 ### 第3題
 ```c
 #include <stdio.h>
@@ -372,7 +372,7 @@ int main()
 
 }
 ```
-![image]()
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week3/week3-3(%E8%AA%B2).png)
 ### 第4題
 ```c
 #include <stdio.h>
@@ -387,4 +387,4 @@ int main(){
     return 0;
 }
 ```
-![image]()
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week3/week3-4(%E8%AA%B2).png)
