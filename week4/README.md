@@ -16,7 +16,7 @@ int main()
 	printf("\n");
 }
 ```
-![image]()
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week4/week4-1%E9%99%A4%E6%83%A1%E5%8B%99%E7%9B%A1.png)
 ### 第2題 進階題 擲骰統計
 ```c
 #include <stdio.h>
@@ -37,7 +37,7 @@ int main()
 	}
 }
 ```
-![image]()
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week4/week4-2%E6%93%B2%E9%AA%B0%E7%B5%B1%E8%A8%88.png)
 ### 第3題 進階題 函數找整數的最大數字
 ```c
 #include<iostream>
@@ -54,8 +54,6 @@ int max_digit(int n)
 	return max;
 
 }
-
-
 int main(){
   int n;cin>>n;
   cout<<"["<<max_digit(n)<<"]";
@@ -70,7 +68,7 @@ int main(void){
 }
 */
 ```
-![image]()
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week4/week4-3%E5%87%BD%E6%95%B8%E6%89%BE%E6%95%B4%E6%95%B8%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B8%E5%AD%97.png)
 ### 第4題 進階題 星星等腰三角
 ```c
 #include <stdio.h>
@@ -88,7 +86,7 @@ int main()
 
 }
 ```
-![image]()
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week4/week4-4%E6%98%9F%E6%98%9F%E7%AD%89%E8%85%B0%E4%B8%89%E8%A7%92.png)
 ### 第5題 基礎題 分開整數的每個數字
 ```c
 #include <stdio.h>
@@ -103,7 +101,7 @@ int main()
 	 printf("%d", (((n%10000)%1000)%100)%10);
 }
 ```
-![image]()
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week4/week4-5%E5%88%86%E9%96%8B%E6%95%B4%E6%95%B8%E7%9A%84%E6%AF%8F%E5%80%8B%E6%95%B8%E5%AD%97.png)
 ### 第6題 基礎題 字元判別
 ```c
 #include <stdio.h>
@@ -118,7 +116,7 @@ int main()
 
 }
 ```
-![image]()
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week4/week4-6%E5%AD%97%E5%85%83%E5%88%A4%E5%88%A5.png)
 ### 第7題 基礎題 數字之首
 ```c
 #include <stdio.h>
@@ -133,7 +131,7 @@ int main()
 	printf("%d", n);
 }
 ```
-![image]()
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week4/week4-7%E6%95%B8%E5%AD%97%E4%B9%8B%E9%A6%96.png)
 ### 第8題 基礎題 輸出從0到N的偶數
 ```c
 #include <stdio.h>
@@ -148,7 +146,7 @@ int main()
 	}
 }
 ```
-![image]()
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week4/week4-8%E8%BC%B8%E5%87%BA%E5%BE%9E0%E5%88%B0N%E7%9A%84%E5%81%B6%E6%95%B8.png)
 ## 第4週程式(正課)
 ### 第1題
 ```c
@@ -163,6 +161,7 @@ int main()
 	struct POINT a;
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week4/week4-1(%E8%AA%B2).png)
 ### 第2題
 ```c
 #include <stdio.h>
@@ -176,6 +175,7 @@ int main(){
 	return ;
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week4/week4-2(%E8%AA%B2).png)
 ### 第3題
 ```c
 #include <stdio.h>
@@ -192,6 +192,7 @@ int main(){
 	return 0;
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week4/week4-3(%E8%AA%B2).png)
 ### 第4題
 ```c
 #include <stdio.h>
@@ -213,6 +214,7 @@ int main(){
 	printf("c: %d %d\n", c.x, c.y);
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week4/week4-4(%E8%AA%B2).png)
 ### 第5題
 ```c
 #include <stdio.h>
@@ -234,3 +236,4 @@ int main()
 	printf("%.2f %.2f %.2f\n", p->x, p->y, p->z);
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week4/week4-5(%E8%AA%B2).png)
