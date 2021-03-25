@@ -16,6 +16,7 @@ int main()
 	printf("\n");
 }
 ```
+![image]()
 ### 第2題 進階題 擲骰統計
 ```c
 #include <stdio.h>
@@ -36,6 +37,7 @@ int main()
 	}
 }
 ```
+![image]()
 ### 第3題 進階題 函數找整數的最大數字
 ```c
 #include<iostream>
@@ -68,6 +70,7 @@ int main(void){
 }
 */
 ```
+![image]()
 ### 第4題 進階題 星星等腰三角
 ```c
 #include <stdio.h>
@@ -85,6 +88,7 @@ int main()
 
 }
 ```
+![image]()
 ### 第5題 基礎題 分開整數的每個數字
 ```c
 #include <stdio.h>
@@ -99,6 +103,7 @@ int main()
 	 printf("%d", (((n%10000)%1000)%100)%10);
 }
 ```
+![image]()
 ### 第6題 基礎題 字元判別
 ```c
 #include <stdio.h>
@@ -113,6 +118,7 @@ int main()
 
 }
 ```
+![image]()
 ### 第7題 基礎題 數字之首
 ```c
 #include <stdio.h>
@@ -127,6 +133,7 @@ int main()
 	printf("%d", n);
 }
 ```
+![image]()
 ### 第8題 基礎題 輸出從0到N的偶數
 ```c
 #include <stdio.h>
@@ -141,3 +148,4 @@ int main()
 	}
 }
 ```
+![image]()
