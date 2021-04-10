@@ -14,6 +14,7 @@ int main()
 
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week7/week7-1%E8%BF%B4%E6%96%87%E5%88%A4%E6%96%B7.png)
 ### 第2題 進階題 函數反序排列數字
 ```c
 #include <stdio.h>
@@ -36,6 +37,8 @@ int main()
 	
 }
 ```
+
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week7/week7-2%E5%87%BD%E6%95%B8%E5%8F%8D%E5%BA%8F%E6%8E%92%E5%88%97%E6%95%B8%E5%AD%97.png)
 ### 第3題 進階題 陣列找出現次數 
 ```c
 #include <stdio.h>
@@ -58,6 +61,7 @@ int main()
 
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week7/week7-3%E9%99%A3%E5%88%97%E6%89%BE%E5%87%BA%E7%8F%BE%E6%AC%A1%E6%95%B8.png)
 ### 第4題 進階題 判斷大小 
 ```c
 #include <stdio.h>
@@ -73,6 +77,7 @@ int main(){
     return 0;
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week7/week7-4%E5%88%A4%E6%96%B7%E5%A4%A7%E5%B0%8F.png)
 ### 第5題 進階題 計算一列整數的總和
 ```c
 #include <stdio.h>
@@ -92,6 +97,7 @@ int main()
 	printf("The total is: %d", ans);
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week7/week7-5%E8%A8%88%E7%AE%97%E4%B8%80%E5%88%97%E6%95%B4%E6%95%B8%E7%9A%84%E7%B8%BD%E5%92%8C.png)
 ### 第6題 基礎題 計算餘數 
 ```c
 #include <stdio.h>
@@ -102,6 +108,7 @@ int main()
 	printf("%d", a%b);
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week7/week7-6%E8%A8%88%E7%AE%97%E9%A4%98%E6%95%B8.png)
 ### 第7題 基礎題 整數轉換等級 
 ```c
 #include <stdio.h>
@@ -116,6 +123,7 @@ int main()
 	else printf("F");
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week7/week7-7%E6%95%B4%E6%95%B8%E8%BD%89%E6%8F%9B%E7%AD%89%E7%B4%9A.png)
 ### 第8題 基礎題 計程車資計算
 ```c
 #include <stdio.h>
@@ -128,6 +136,7 @@ int main()
 
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week7/week7-8%E8%A8%88%E7%A8%8B%E8%BB%8A%E8%B3%87%E8%A8%88%E7%AE%97.png)
 ### 第9題 基礎題 找零錢 
 ```c
 #include <stdio.h>
@@ -140,3 +149,4 @@ int main()
 	printf("%d=50*%d+10*%d+5*%d+1*%d", n, n/50, (n%50)/10, (n%50%10)/5, (n%50%10%5)/1 );
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week7/week7-9%E6%89%BE%E9%9B%B6%E9%8C%A2.png)
