@@ -78,7 +78,6 @@ int main()
 ```
 step4
 ```c
-#include <stdio.h>
 #include <string.h>//strcmp() strcpy()
 #include <stdlib.h>//qsort()
 char line[1000];
@@ -107,12 +106,12 @@ int main()
 		int ans=1; //新的開始
 		printf("%s", tree[0]);
 		for(int i=0; i<N; i++){
-			if(strcmp ( tree[i], tree[i+1]) == 0 ){
+			if(strcmp ( tree[i], tree[i+1]) == 0 ){//相同
 				ans++;
-			}else{
+			}else{//不相同 收尾 + 新的開始
 				printf("%d\n", ans);
-				ans=1;
-				printf("%s", tree[i+1]);
+				ans=1;//新的開始
+				printf("%s", tree[i+1]);//新的開始
 			}
 			//printf("%s\n", tree[i] );//step 把tree[i]印出來
 		}
