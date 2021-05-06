@@ -1,6 +1,6 @@
 ## 第10週 程式 (正課)
 ### 顆星廣場 一顆星 10226 統計樹名
-#### step1
+#### step1 讀資料
 ```c
 #include <stdio.h>
 #include <string.h>
@@ -21,7 +21,7 @@ int main()
 	}
 }
 ```
-#### step2
+#### step2 數出正確的樹數目
 ```c
 #include <stdio.h>
 #include <string.h>
@@ -44,7 +44,7 @@ int main()
 	}
 }
 ```
-#### step3
+#### step3 陣列 tree 裡面放樹的名字 印出來
 ```c
 #include <stdio.h>
 #include <string.h>
@@ -76,7 +76,7 @@ int main()
 	}
 }
 ```
-step4
+step4 qsort() 配合你的 compare() 來把樹名排序
 ```c
 #include <string.h>//strcmp() strcpy()
 #include <stdlib.h>//qsort()
@@ -119,7 +119,7 @@ int main()
 	}
 }
 ```
-#### step5
+#### step5 印出答案 分成 for迴圈前面開頭 for迴圈中間 [收尾+開頭] for迴圈後面收尾 換算百分比的收尾
 ```c
 #include <stdio.h>
 #include <string.h>//strcmp() strcpy()
