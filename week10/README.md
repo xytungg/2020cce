@@ -21,6 +21,7 @@ int main()
 	}
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week10/week10-1.png)
 #### step2 數出正確的樹數目
 ```c
 #include <stdio.h>
@@ -44,6 +45,7 @@ int main()
 	}
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week10/week10-2.png)
 #### step3 陣列 tree 裡面放樹的名字 印出來
 ```c
 #include <stdio.h>
@@ -76,6 +78,7 @@ int main()
 	}
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week10/week10-3.png)
 step4 qsort() 配合你的 compare() 來把樹名排序
 ```c
 #include <string.h>//strcmp() strcpy()
@@ -119,6 +122,7 @@ int main()
 	}
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week10/week10-4.png)
 #### step5 印出答案 分成 for迴圈前面開頭 for迴圈中間 [收尾+開頭] for迴圈後面收尾 換算百分比的收尾
 ```c
 #include <stdio.h>
@@ -164,3 +168,4 @@ int main()
 	}
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week10/week10-5.png)
