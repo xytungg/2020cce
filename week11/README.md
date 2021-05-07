@@ -82,3 +82,20 @@ int main()
 
 }
 ```
+#### work4
+```c
+#include <stdio.h>
+typedef struct data{
+    int ans;///有幾個
+    char c;///字母
+}DATA;
+///struct data box;
+DATA box;
+int main()
+{
+    box.ans=1;
+    box.c='A';
+    printf("%c %d\n", box.c, box.ans);
+
+}
+```
