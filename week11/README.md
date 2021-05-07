@@ -1,4 +1,5 @@
 ### week11程式設計正課
+#### work1
 ```c
 
 #include <stdio.h>
@@ -21,7 +22,7 @@ int main()
     }
 }
 ```
-
+#### work2
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -62,5 +63,22 @@ int main()
 	}
 	printf("%d\n", ans);
 	
+}
+```
+#### work3
+```c
+#include <stdio.h>
+struct data{
+    int ans;///有幾個
+    char c;///字母
+};
+struct data box;
+int main()
+{
+    box.ans=1;
+    box.c='A';
+    printf("%c %d\n", box.c, box.ans);
+
+
 }
 ```
