@@ -113,3 +113,27 @@ int main()
     }
 }
 ```
+#### work6
+```c
+#include <stdio.h>
+char line[2000];
+int ans[256];//step3 統計有幾個字母 ex. ans[65]=3 表示'A'有3次
+int main()
+{//step1 input 一次一整行 很多一整行
+    for(int t=0; gets(line); t++){
+        
+        for(int i=0; i<256; i++) ans[i]=0;///step3 清乾淨
+        
+        for(int i=0; line[i]!=0; i++){///step4 字串的迴圈
+            char c = line[i];//step4 第i個字母
+            ans[ c ] ++;//step4 統計到ans[]裡面
+            
+        }
+        //step2 output 對應印出來
+        if( t>0 ) printf("\n");
+        for(int i=0; i<256; i++){//step5 真的印出來
+            if( ans[i]>0 )printf("%d %d\n", i, ans[i]);
+        }
+    }
+}
+```
