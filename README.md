@@ -1,5 +1,5 @@
 ## 第12週 
-### 10062 告訴我頻率
+### UVA10062 告訴我頻率
 #### step1 Input Output 完成
 ```C
 #include <stdio.h>
