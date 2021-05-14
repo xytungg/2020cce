@@ -1,5 +1,5 @@
 ### 第12週 10062 告訴我頻率
-#### step1
+#### step1 Input Output 完成
 ```C
 #include <stdio.h>
 char line[2000];
@@ -20,7 +20,7 @@ int main()
 	}
 }
 ```
-#### step2
+#### step2 利用2層for迴圈 進行排序的交換 而且不只換 ans[i] 陣列 也要換字母 c[i] 陣列
 ```
 #include <stdio.h>
 char line[2000];
