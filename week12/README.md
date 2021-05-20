@@ -21,6 +21,7 @@ int main()
 	}
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week12/week12-1.png)
 #### step2 利用2層for迴圈 進行排序的交換 而且不只換 ans[i] 陣列 也要換字母 c[i] 陣列
 ```c
 #include <stdio.h>
@@ -56,6 +57,7 @@ int main()
 	}
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week12/week12-2.png)
 #### step3 把第2個比較規則也完成
 ```
 #include <stdio.h>
@@ -99,6 +101,7 @@ int main()
 	}
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week12/week12-3.png)
 ### UVA299 Train Swapping 
 #### step1 先解決 Input, Output
 ```C
@@ -121,6 +124,7 @@ int main()
 	}
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week12/week12-4.png)
 #### step2 利用泡泡排序法全部完成
 ```c
 #include <stdio.h>
@@ -153,6 +157,7 @@ int main()
 	}
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week12/week12-5.png)
 ### UVA11321 Sort! Sort!! and Sort!!! 
 #### step1 先解決 Input Output 問題
 ```c
@@ -173,3 +178,4 @@ int main()
 	}
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week12/week12-6.png)
