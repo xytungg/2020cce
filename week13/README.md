@@ -87,5 +87,5 @@ void draw(){
   int hh = ans/60/60, mm= ans/60%60, ss=ans%60;
   text( "還剩下:" + hh + ":" + mm + ":" + ss , 100, 300); 
 }
-
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week13/week13-6.png)
