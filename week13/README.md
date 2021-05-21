@@ -31,3 +31,17 @@ void mousePressed(){//按下去時 會呼叫這個函式
   a++; 
 }
 ```
+#### step4
+```c
+void setup(){
+  size(1024, 400);
+}
+void draw(){
+  background( 0, 60, 0);
+  textSize(50);
+  int h = hour();//小時
+  int m = minute();//分鐘
+  int s = second();//秒
+  text( "Now:"+ h + ":" + m + ":" + s , 100, 100);
+}//      字串   數  字串  數  字串  數
+```
