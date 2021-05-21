@@ -84,7 +84,8 @@ void draw(){
   int total2=12*60*60 + 0*60 +0;//目標時間的總秒數
   text( "總秒數:" + total, 100, 200);
   int ans =total2-total;
-  int hh = ans/60/60%60, mm= ans/60%60, ss=ans%60;
+  int hh = ans/60/60, mm= ans/60%60, ss=ans%60;
   text( "還剩下:" + hh + ":" + mm + ":" + ss , 100, 300); 
 }
+
 ```
