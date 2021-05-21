@@ -66,4 +66,4 @@ void draw(){
   text( "總秒數:" + total, 100, 200);
 }
 ```
-
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week13/week13-5.png)
