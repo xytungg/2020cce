@@ -31,7 +31,7 @@ void mousePressed(){//按下去時 會呼叫這個函式
   a++; 
 }
 ```
-### step4
+### step4 利用hour()小時,minute()分鐘,second()秒,再用特別的字串加法,顯示垷在的時間
 ```c
 void setup(){
   size(1024, 400);
