@@ -5,6 +5,7 @@
 size(1024, 400);
 background( 0, 66, 0);
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week13/week13-1.png)
 ### step2 互做mousePressed的互動,先有void setup()及 void draw(),再用if(mousePressed) 及else來切換
 ```c
 void setup(){//只做一次設定
@@ -15,6 +16,7 @@ void draw(){//每秒狂做60次
   else background( 0, 66, 0);
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week13/week13-2.png)
 ### step3 用textSize()調字大小,text()畫出字,void mousePressed()做按下去的動作
 ```c
 void setup(){//只做一次設定
@@ -31,6 +33,7 @@ void mousePressed(){//按下去時 會呼叫這個函式
   a++; 
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week13/week13-3.png)
 ### step4 利用hour()小時,minute()分鐘,second()秒,再用特別的字串加法,顯示垷在的時間
 ```c
 void setup(){
@@ -45,3 +48,4 @@ void draw(){
   text( "Now:"+ h + ":" + m + ":" + s , 100, 100);
 }//      字串   數  字串  數  字串  數
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week13/week13-4.png)
