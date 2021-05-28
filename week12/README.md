@@ -1,6 +1,6 @@
-## 第12週 
-### UVA10062 告訴我頻率
-#### step1 Input Output 完成
+# 第12週 
+## UVA10062 告訴我頻率
+### step1 Input Output 完成
 ```C
 #include <stdio.h>
 char line[2000];
@@ -22,7 +22,7 @@ int main()
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week12/week12-1.png)
-#### step2 利用2層for迴圈 進行排序的交換 而且不只換 ans[i] 陣列 也要換字母 c[i] 陣列
+### step2 利用2層for迴圈 進行排序的交換 而且不只換 ans[i] 陣列 也要換字母 c[i] 陣列
 ```c
 #include <stdio.h>
 char line[2000];
@@ -58,7 +58,7 @@ int main()
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week12/week12-2.png)
-#### step3 把第2個比較規則也完成
+### step3 把第2個比較規則也完成
 ```
 #include <stdio.h>
 char line[2000];
@@ -102,8 +102,8 @@ int main()
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week12/week12-3.png)
-### UVA299 Train Swapping 
-#### step1 先解決 Input, Output
+## UVA299 Train Swapping 
+### step1 先解決 Input, Output
 ```C
 #include <stdio.h>
 int a[100];
@@ -125,7 +125,7 @@ int main()
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week12/week12-4.png)
-#### step2 利用泡泡排序法全部完成
+### step2 利用泡泡排序法全部完成
 ```c
 #include <stdio.h>
 int a[100];
@@ -158,8 +158,8 @@ int main()
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week12/week12-5.png)
-### UVA11321 Sort! Sort!! and Sort!!! 
-#### step1 先解決 Input Output 問題
+## UVA11321 Sort! Sort!! and Sort!!! 
+### step1 先解決 Input Output 問題
 ```c
 #include <stdio.h>
 int a[10000];
