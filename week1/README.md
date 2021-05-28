@@ -17,7 +17,7 @@ int main()
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week1/week1-1%E6%89%BE%E9%9B%B6%E9%8C%A2.png)
-### 第2題 基礎題 因數個數
+## 第2題 基礎題 因數個數
 ```c
 #include <stdio.h>
 int main()
@@ -31,7 +31,7 @@ int main()
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week1/week1-2%E5%9B%A0%E6%95%B8%E5%80%8B%E6%95%B8.png)
-### 第3題 基礎題 找倍數
+## 第3題 基礎題 找倍數
 ```c
 #include <stdio.h>
 int main()
@@ -46,7 +46,7 @@ int main()
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week1/week1-3%E6%89%BE%E5%80%8D%E6%95%B8.png)
-### 第4題 基礎題 整數轉換為等級
+## 第4題 基礎題 整數轉換為等級
 ```c
 #include <stdio.h>
 int main()
@@ -61,7 +61,7 @@ int main()
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week1/week1-4%E6%95%B4%E6%95%B8%E8%BD%89%E6%8F%9B%E7%AD%89%E7%B4%9A.png)
-### 第5題 進階題 分式化簡
+## 第5題 進階題 分式化簡
 ```c
 #include <stdio.h>
 int main()
