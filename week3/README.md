@@ -1,5 +1,5 @@
-## 第3週程式(實習課)
-### 第1題 進階題 計算陣列的平方值
+# 第3週程式(實習課)
+## 第1題 進階題 計算陣列的平方值
 ```c
 #include <stdio.h>
 int a[100];
@@ -18,7 +18,7 @@ int main()
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week3/week3-1.png)
-### 第2題 進階題 大小寫轉換
+## 第2題 進階題 大小寫轉換
 ```c
 #include <stdio.h>
 int main()
@@ -38,7 +38,7 @@ int main()
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week3/week3-2.png)
-### 第3題 基礎題 計算幾週與幾天
+## 第3題 基礎題 計算幾週與幾天
 ```c
 #include <stdio.h>
 int main()
@@ -52,7 +52,7 @@ int main()
 }
 ```
 ![image]()
-### 第4題 基礎題 計程車資計算
+## 第4題 基礎題 計程車資計算
 ```c
 #include <stdio.h>
 int main(https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week3/week3-3.png)
@@ -65,7 +65,7 @@ int main(https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week3/week3-
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week3/week3-4.png)
-### 第5題 基礎題 兩數間可被5整除的整數
+## 第5題 基礎題 兩數間可被5整除的整數
 ```c
 #include <stdio.h>
 int main()
@@ -83,7 +83,7 @@ int main()
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week3/week3-5.png)
-### 第6題 基礎題 整數間最大距離
+## 第6題 基礎題 整數間最大距離
 ```c
 #include <stdio.h>
 int a[100];
@@ -103,8 +103,8 @@ int main()
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week3/week3-6.png)
-## 第3週程式(正課)
-### 第1題
+# 第3週程式(正課)
+## 第1題
 ```c
 #include <stdio.h>
 int main()
@@ -119,7 +119,7 @@ int main()
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week3/week3-1(%E8%AA%B2).png)
-### 第2題
+## 第2題
 ```c
 #include <stdio.h>
 int a[5] = {0, 10, 20, 30, 40};
@@ -146,7 +146,7 @@ int main()
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week3/week3-2(%E8%AA%B2).png)
-### 第3題
+## 第3題
 ```c
 #include <stdio.h>
 int a[5] = {0, 10, 20, 30, 40};
@@ -173,7 +173,7 @@ int main()
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week3/week3-3(%E8%AA%B2).png)
-### 第4題
+## 第4題
 ```c
 #include <stdio.h>
 #include <stdlib.h>
