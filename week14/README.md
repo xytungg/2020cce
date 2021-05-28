@@ -27,3 +27,23 @@ void mousePressed(){
   ans = (int)random(60);
 }
 ```
+### step3 亂數洗牌,先宣告Java的陣列 int [] a = {...}, 再用for迴圈,印出陣列的值, mousePressed()時,利用random()挑2個數i1,i2,將a[i1],a[i2]交換.zip
+```c
+//int a[]={1,2,3,4,5,6,7,8,9,10};//C, C++
+int []a={1,2,3,4,5,6,7,8,9,10};//Java
+void setup(){
+  size(400, 200);
+  textSize(30);
+}
+void draw(){
+  background(23, 94, 32);
+  for(int i=0; i<10; i++){
+   text (a[i], i*40, 100); 
+  }
+}
+void mousePressed(){
+  int i1 = (int) random(10);
+  int i2 = (int) random(10);
+  int temp=a[i1];a[i1]=a[i2];a[i2]=temp;
+}//交換,行數太擠,所以塞成一行,中間是分號喔
+```
