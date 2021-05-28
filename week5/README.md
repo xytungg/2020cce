@@ -1,5 +1,5 @@
-## 第5週 程式 (正課)
-### 第1題
+# 第5週 程式 (正課)
+## 第1題
 ```c
 #include <stdio.h>
 int main()
@@ -17,7 +17,7 @@ int main()
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week5/week5-1(%E8%AA%B2).png)
-### 第2題
+## 第2題
 ```c
 #include <stdio.h>
 int main()
@@ -29,7 +29,7 @@ int main()
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week5/week5-2(%E8%AA%B2).png)
-### 第3題
+## 第3題
 ```c
 #include <stdio.h>
 int main()
@@ -41,7 +41,7 @@ int main()
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week5/week5-3(%E8%AA%B2).png)
-### 第4題
+## 第4題
 ```c
 #include <stdio.h>
 int main()
@@ -50,7 +50,7 @@ int main()
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week5/week5-4(%E8%AA%B2).png)
-### 第5題
+## 第5題
 ```c
 #include <stdio.h>
 #include <string.h>
