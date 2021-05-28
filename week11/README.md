@@ -1,5 +1,5 @@
-### week11程式設計正課
-#### work1
+# week11程式設計正課
+## work1
 ```c
 
 #include <stdio.h>
@@ -22,7 +22,7 @@ int main()
     }
 }
 ```
-#### work2
+## work2
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -65,7 +65,7 @@ int main()
 	
 }
 ```
-#### work3
+## work3
 ```c
 #include <stdio.h>
 struct data{
@@ -82,7 +82,7 @@ int main()
 
 }
 ```
-#### work4
+## work4
 ```c
 #include <stdio.h>
 typedef struct data{
@@ -99,7 +99,7 @@ int main()
 
 }
 ```
-#### work5
+## work5
 ```c
 #include <stdio.h>
 char line[2000];
@@ -113,7 +113,7 @@ int main()
     }
 }
 ```
-#### work6
+## work6
 ```c
 #include <stdio.h>
 char line[2000];
