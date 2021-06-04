@@ -1,5 +1,5 @@
 # 第11週程式(實習課)
-## 進階題 字串中的數字個數 
+## 第1題 進階題 字串中的數字個數 
 ```c
 #include <stdio.h>
 int main()
@@ -15,7 +15,7 @@ int main()
 	printf("%d", ans);
 }
 ```
-## 進階題 利用自訂函式最大值max與最小值min求出兩者之差
+## 第2題 進階題 利用自訂函式最大值max與最小值min求出兩者之差
 ```c
 #include<iostream>
 using namespace std;
@@ -48,7 +48,7 @@ int main(void){
 }
 */
 ```
-## 進階題 奇數之和 
+## 第3題 進階題 奇數之和 
 ```c
 #include <stdio.h>
 int main()
@@ -78,7 +78,7 @@ int main()
 	}
 }
 ```
-## 基礎題 整數二元四則運算
+## 第4題 基礎題 整數二元四則運算
 ```c
 #include <stdio.h>
 int main()
@@ -93,7 +93,7 @@ int main()
 
 }
 ```
-## 基礎題 幾日為星期幾
+## 第5題 基礎題 幾日為星期幾
 ```c
 #include <stdio.h>
 int main()
@@ -104,7 +104,7 @@ int main()
 	else printf("%d", n%7-1);
 }
 ```
-## 基礎題 零錢總額 
+## 第6題 基礎題 零錢總額 
 ```c
 #include <stdio.h>
 int main()
@@ -114,7 +114,7 @@ int main()
 	printf("%d", 50*a+5*b+1*c);
 }
 ```
-## 基礎題 兩數平方差 
+## 第7題 基礎題 兩數平方差 
 ```c
 #include <stdio.h>
 int main()
