@@ -12,6 +12,7 @@ int main()
 	printf("%d", ans);
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week13/week13-1(%E5%AF%A6).png)
 ## 第2題 進階題 求兩數之最大公因數
 ```c
 #include<iostream>
@@ -31,6 +32,7 @@ int main(){
   return 0;
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week13/week13-2(%E5%AF%A6).png)
 ## 第3題 進階題 區間測速-超速之王 
 ```c
 #include <stdio.h>
@@ -49,6 +51,7 @@ int main()
 	printf("%d %d", index, s);
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week13/week13-3(%E5%AF%A6).png)
 ## 第4題 進階題 10數排序，從大到小排好 
 ```c
 #include <stdio.h>
@@ -73,6 +76,7 @@ int main()
 	}
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week13/week13-4(%E5%AF%A6).png)
 ## 第5題 基礎題 正整數平方總和 
 ```c
 #include <stdio.h>
@@ -86,6 +90,7 @@ int main()
 	printf("%d", ans);
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week13/week13-5(%E5%AF%A6).png)
 ## 第6題 進階題 兩數之間的3倍數總和 
 ```c
 #include <stdio.h>
@@ -99,6 +104,7 @@ int main()
 	printf("%d", ans);
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week13/week13-6(%E5%AF%A6).png)
 ## 第7題 基礎題 判斷座標的象限 
 ```c
 #include <stdio.h>
@@ -112,6 +118,7 @@ int main()
 	else if(a>0 && b<0) printf("4\n");
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week13/week13-7(%E5%AF%A6).png)
 ## 第8題 基礎題 輸入n (n>0)， 求n之所有因數和
 ```c
 #include <stdio.h>
@@ -125,6 +132,7 @@ int main()
 	printf("%d", ans);
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week13/week13-8(%E5%AF%A6).png)
 # 第13週程式(正課)
 ## 互動程式設計 (遊戲、工具)—倒數計時器
 ### step1 開啟Processing,使用size()還有background()開出有背景色的窗,可用小畫家編輯色彩
