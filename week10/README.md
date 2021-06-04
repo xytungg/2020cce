@@ -39,11 +39,104 @@ int main()
 }
 ```
 ## 第3題 進階題 函數判斷質數
+```c
+#include <iostream>
+using namespace std;
+int prime(int n)
+{
+	int i;
+	for(i=2; i<n; i++){
+		if(n%i==0) break;
+	}
+	if(i==n) return 1;//是質數
+	else return 0;//非質數
+}
+
+int main(){
+  int n;cin>>n;
+  cout<<"["<<prime(n)<<"]";
+  return 0;
+}
+/* 上方 C++ 的 main 函數 等價於 下方 C 的 main 函數
+int main(void){
+    int n;
+    scanf("%d", &n);
+    printf("[%d]", prime(n));
+    return 0;
+}
+*/
+```
 ## 第4題 進階題 判斷迴文
+```c
+#include <stdio.h>
+#include <string.h>
+char a[10000];
+int main()
+{
+	scanf("%s", &a);
+	int i;
+	int len;
+	len=strlen(a);
+	for( i=0; i<(len/2); i++){
+		if(a[i] !=a[len-1-i]) break;
+	}
+		if(i==(len/2)) printf("YES");
+		else printf("NO");
+
+}
+```
 ## 第5題 基礎題 計算餘數及列印
+```c
+#include <stdio.h>
+int main()
+{
+	int x, y;
+	scanf("%d%d", &x, &y);
+	
+	printf("Enter two numbers: The remainder is %d\n", x%y);
+}
+```
 ## 第6題 基礎題 判別正方形 
+```c
+#include <stdio.h>
+int main()
+{
+	int a, b;
+	scanf("%d%d", &a, &b);
+	if(a==b) printf("Enter two numbers:  It is a square ");
+	else printf("Enter two numbers:  It is not a square ");
+
+}
+```
 ## 第7題 基礎題 將一連串整數相乘 
+```c
+#include <stdio.h>
+int a[100];
+int main()
+{
+	printf("Enter the number of values to be processed: ");
+	int n, ans=1;
+	scanf("%d", &n);
+	for(int i=0; i<n; i++){
+		printf("Enter a value: ");
+		scanf("%d", &a[i]);	
+		ans = ans*a[i];
+	 	}
+	printf("Product of the %d values is %d", n, ans);
+}
+```
 ## 第8題 基礎題 平年月份的天數 
+```c
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d", &n);
+	if(n==1 || n==3|| n==5 || n==7 || n==8 || n==10 || n==12) printf("31");
+	else if(n==2) printf("28");
+	else printf("30");
+}
+```
 # 第10週 程式 (正課)
 ## 顆星廣場 一顆星 10226 統計樹名
 ### step1 讀資料
