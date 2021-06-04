@@ -34,7 +34,7 @@ int main()
 	lenb= strlen(b);//字串b的長度
 	
 	if ( lena>lenb ) printf("1");
-	else if ( lena>lenb ) printf("-1");
+	else if ( lena<lenb ) printf("-1");
 	else printf("%d", strcmp(a, b));
 }
 ```
