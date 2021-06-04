@@ -15,6 +15,7 @@ int main()
 	printf("%d", ans);
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week11/week11-1(%E5%AF%A6).png)
 ## 第2題 進階題 利用自訂函式最大值max與最小值min求出兩者之差
 ```c
 #include<iostream>
@@ -48,6 +49,7 @@ int main(void){
 }
 */
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week11/week11-2(%E5%AF%A6).png)
 ## 第3題 進階題 奇數之和 
 ```c
 #include <stdio.h>
@@ -61,7 +63,8 @@ int main()
 	printf("%d", ans);
 }
 ```
-## 進階題 兩數間可被7整除的數 
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week11/week11-3(%E5%AF%A6).png)
+## 第4題 進階題 兩數間可被7整除的數 
 ```c
 #include <stdio.h>
 int main()
@@ -78,7 +81,8 @@ int main()
 	}
 }
 ```
-## 第4題 基礎題 整數二元四則運算
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week11/week11-4(%E5%AF%A6).png)
+## 第5題 基礎題 整數二元四則運算
 ```c
 #include <stdio.h>
 int main()
@@ -93,7 +97,8 @@ int main()
 
 }
 ```
-## 第5題 基礎題 幾日為星期幾
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week11/week11-5(%E5%AF%A6).png)
+## 第6題 基礎題 幾日為星期幾
 ```c
 #include <stdio.h>
 int main()
@@ -104,7 +109,8 @@ int main()
 	else printf("%d", n%7-1);
 }
 ```
-## 第6題 基礎題 零錢總額 
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week11/week11-6(%E5%AF%A6).png)
+## 第7題 基礎題 零錢總額 
 ```c
 #include <stdio.h>
 int main()
@@ -114,7 +120,8 @@ int main()
 	printf("%d", 50*a+5*b+1*c);
 }
 ```
-## 第7題 基礎題 兩數平方差 
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week11/week11-7(%E5%AF%A6).png)
+## 第8題 基礎題 兩數平方差 
 ```c
 #include <stdio.h>
 int main()
@@ -124,6 +131,7 @@ int main()
 	printf("%d", a*a-b*b);
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week11/week11-8(%E5%AF%A6).png)
 # 第11週 程式 (正課)
 ## work1
 ```c
