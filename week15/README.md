@@ -1,3 +1,70 @@
+# 第16週 程式(實習課)
+## 第1題 進階題 億萬富翁 
+```c
+#include <stdio.h>
+#include <string.h>
+char a[100];
+int main()
+{
+	scanf("%s", &a);
+	for(int i=0; i<strlen(a); i++){
+		if( (strlen(a)-i)%3==0 && i!=0 ) printf(",");
+		printf("%c", a[i]);
+	}
+}
+```
+## 第2題 進階題 秒數換算 
+```
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d", &n);
+	printf("%02d:%02d:%02d", n/(60*60), (n/60)%60, n%60);
+}
+```
+
+## 第3題 基礎題 水杯接水 
+```c
+#include <stdio.h>
+int main()
+{
+	int n, m;
+	scanf("%d%d", &n, &m);
+	if(n%m==0) printf("%d", n/m);
+	else printf("%d", (n/m)+1);
+
+}
+```
+## 第4題 基礎題 平面兩座標的面積
+```c
+#include <stdio.h>
+int main()
+{
+	int x1, y1, x2, y2;
+	int ans=0;
+	scanf("%d%d%d%d", &x1, &y1, &x2, &y2);
+	ans=(x2-x1)*(y2-y1);
+	if(ans<0) ans=-ans;
+	printf("%d", ans);
+}
+```
+## 第5題 基礎題 整數向量相加 
+```c
+#include <stdio.h>
+int main()
+{
+	int n, a[10], b[10];
+	scanf("%d", &n);
+	for(int i=0; i<n; i++){
+		scanf("%d", &a[i]);
+	}
+	for(int i=0; i<n; i++){
+		scanf("%d", &b[i]);
+		printf("%d ", a[i]+b[i]);
+	}
+}
+```
 # 第15週 程式(正課)
 ## step1 複習倒數計時 second()秒鐘 textSize()字型大小 test()畫出字 setup()做一次 draw()每秒做60次
 ```c
