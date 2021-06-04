@@ -16,7 +16,7 @@ int main()
 	printf("%d", ans);
 }
 ```
-
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week12/week12-1(%E5%AF%A6).png)
 ## 第2題 基礎題剩餘啤酒有幾手又幾瓶
 ```c
 #include <stdio.h>
@@ -28,6 +28,7 @@ int main()
 	printf("%d %d", ans/6, ans%6);
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week12/week12-2(%E5%AF%A6).png)
 ## 第3題 基礎題 三數最小
 ```c
 #include <stdio.h>
@@ -42,6 +43,7 @@ int main()
 
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week12/week12-3(%E5%AF%A6).png)
 ## 第4題 基礎題 計算立方值 
 ```c
 #include <stdio.h>
@@ -54,6 +56,7 @@ int main()
 	}
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week12/week12-4(%E5%AF%A6).png)
 ## 第5題 進階題 判斷平方數 
 ```c
 #include <stdio.h>
@@ -67,6 +70,7 @@ int main()
 	printf("%d", ans);
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week12/week12-5(%E5%AF%A6).png)
 ## 第6題 進階題 計算質數個數
 ```c
 #include <stdio.h>
@@ -89,6 +93,7 @@ int main()
 	printf("%d", ans);
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week12/week12-6(%E5%AF%A6).png)
 ## 第7題 進階題 三數組合 
 ```c
 #include <stdio.h>
@@ -111,6 +116,7 @@ int main()
 		printf("%d", a[0]*100+a[1]*10+a[2]+1);
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week12/week12-7(%E5%AF%A6).png)
 ## 第8題 基礎題 找千位數 
 ```c
 #include <stdio.h>
@@ -124,6 +130,7 @@ int main()
 
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week12/week12-8(%E5%AF%A6).png)
 # 第12週 程式 正課
 ## UVA10062 告訴我頻率
 ### step1 Input Output 完成
