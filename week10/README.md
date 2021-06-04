@@ -16,6 +16,7 @@ int main()
 
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week10/week10-1(%E5%AF%A6).png)
 ## 第2題 進階題 字串長度 
 ```c
 #include <stdio.h>
@@ -38,6 +39,7 @@ int main()
 	else printf("%d", strcmp(a, b));
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week10/week10-2(%E5%AF%A6).png)
 ## 第3題 進階題 函數判斷質數
 ```c
 #include <iostream>
@@ -66,6 +68,7 @@ int main(void){
 }
 */
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week10/week10-3(%E5%AF%A6).png)
 ## 第4題 進階題 判斷迴文
 ```c
 #include <stdio.h>
@@ -85,6 +88,7 @@ int main()
 
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week10/week10-4(%E5%AF%A6).png)
 ## 第5題 基礎題 計算餘數及列印
 ```c
 #include <stdio.h>
@@ -96,6 +100,7 @@ int main()
 	printf("Enter two numbers: The remainder is %d\n", x%y);
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week10/week10-5(%E5%AF%A6).png)
 ## 第6題 基礎題 判別正方形 
 ```c
 #include <stdio.h>
@@ -108,6 +113,7 @@ int main()
 
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week10/week10-6(%E5%AF%A6).png)
 ## 第7題 基礎題 將一連串整數相乘 
 ```c
 #include <stdio.h>
@@ -125,6 +131,7 @@ int main()
 	printf("Product of the %d values is %d", n, ans);
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week10/week10-7(%E5%AF%A6).png)
 ## 第8題 基礎題 平年月份的天數 
 ```c
 #include <stdio.h>
@@ -137,6 +144,7 @@ int main()
 	else printf("30");
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week10/week10-8(%E5%AF%A6).png)
 # 第10週 程式 (正課)
 ## 顆星廣場 一顆星 10226 統計樹名
 ### step1 讀資料
