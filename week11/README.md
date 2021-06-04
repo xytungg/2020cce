@@ -1,12 +1,129 @@
 # 第11週程式(實習課)
-## 進階題：字串中的數字個數 
-## 進階題：利用自訂函式最大值max與最小值min求出兩者之差
-## 進階題：奇數之和 
-## 進階題：兩數間可被7整除的數 
-## 基礎題：整數二元四則運算 
-##　基礎題：幾日為星期幾 
-## 基礎題：零錢總額 
-## 基礎題：兩數平方差 
+## 進階題 字串中的數字個數 
+```c
+#include <stdio.h>
+int main()
+{
+	char c[80]; 
+	int ans=0;
+	scanf("%s", &c);
+	int i=0;
+	while(c[i]!='\0'){
+		if(c[i]>='0' && c[i]<='9')ans++;
+		i++;
+	}
+	printf("%d", ans);
+}
+```
+## 進階題 利用自訂函式最大值max與最小值min求出兩者之差
+```c
+#include<iostream>
+using namespace std;
+int max(int a,int b,int c,int d)
+{
+	if(a>b && a>c && a>d) return a;
+	if(b>a && b>c && b>d) return b;
+	if(c>a && c>b && c>d) return c;
+	if(d>a && d>b && d>c) return d;	
+}
+int min(int a, int b, int c, int d)
+{
+	if(a<b && a<c && a<d) return a;
+	if(b<a && b<c && b<d) return b;
+	if(c<a && c<b && c<d) return c;
+	if(d<a && d<b && d<c) return d;		
+}
+
+int main(){
+  int a,b,c,d;cin>>a>>b>>c>>d;
+  cout<<(max(a,b,c,d)-min(a,b,c,d));
+  return 0;
+}
+/* 上方C++ main 函式 等同於 下方 C 的 main 函式
+int main(void){
+  int a, b, c, d;
+  scanf("%d %d %d %d", &a, &b, &c, &d);
+  printf("%d",  max(a,b,c,d) - min(a,b,c,d) );
+  return 0;
+}
+*/
+```
+## 進階題 奇數之和 
+```c
+#include <stdio.h>
+int main()
+{
+	int n, ans=0;
+	scanf("%d", &n);
+	for(int i=1; i<=n; i++){
+		if((i%2)!=0) ans=ans+i;
+	}
+	printf("%d", ans);
+}
+```
+## 進階題 兩數間可被7整除的數 
+```c
+#include <stdio.h>
+int main()
+{
+	int a, b, temp;
+	scanf("%d%d", &a, &b);
+	if(a>b){
+		temp=a;
+		a=b;
+		b=temp;
+	}
+	for(int i=a; i<=b; i++){
+		if(i%7==0) printf("%d ", i);
+	}
+}
+```
+## 基礎題 整數二元四則運算
+```c
+#include <stdio.h>
+int main()
+{
+	int a, b;
+	char c;
+	scanf("%d %c %d", &a, &c, &b);
+	if(c=='/') printf("%d", a/b);
+	else if(c=='*') printf("%d", a*b);
+	else if(c=='+') printf("%d", a+b);
+	else if(c=='-') printf("%d", a-b);
+
+}
+```
+## 基礎題 幾日為星期幾
+```c
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d", &n);
+	if(n%7==0)printf("6");
+	else printf("%d", n%7-1);
+}
+```
+## 基礎題 零錢總額 
+```c
+#include <stdio.h>
+int main()
+{
+	int a, b, c;
+	scanf("%d%d%d", &a, &b, &c);
+	printf("%d", 50*a+5*b+1*c);
+}
+```
+## 基礎題 兩數平方差 
+```c
+#include <stdio.h>
+int main()
+{
+	int a, b;
+	scanf("%d%d", &a, &b);
+	printf("%d", a*a-b*b);
+}
+```
 # 第11週 程式 (正課)
 ## work1
 ```c
