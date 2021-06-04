@@ -10,3 +10,4 @@ void draw(){//畫圖 每秒60次
   text(s , 100, 100);
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week15/week15-1.png)
