@@ -1,4 +1,130 @@
-# 第12週 
+# 第12週程式(實習課)
+## 第1題 進階題 數字個數 
+```c
+#include <stdio.h>
+int a[9];
+int main()
+{
+	int ans;
+	for(int i=0; i<10; i++){
+		scanf("%d", &a[i]);
+		if(a[i]==0){
+			ans=i;
+			break;
+		}
+	}
+	printf("%d", ans);
+}
+```
+
+## 第2題 基礎題剩餘啤酒有幾手又幾瓶
+```c
+#include <stdio.h>
+int main()
+{
+	int p, d;
+	scanf("%d%d", &p, &d);
+	int ans=p-(d*6);
+	printf("%d %d", ans/6, ans%6);
+}
+```
+## 第3題 基礎題 三數最小
+```c
+#include <stdio.h>
+int main()
+{
+	int a, b, c, m;
+	scanf("%d%d%d", &a, &b, &c);
+	m=a;
+	if(m>b)m=b;
+	if(m>c)m=c;
+	printf("%d\n", m);
+
+}
+```
+## 第4題 基礎題 計算立方值 
+```c
+#include <stdio.h>
+int main()
+{
+	int a;
+	for(int i=0; i<6; i++){
+		scanf("%d", &a);
+		printf("%d\n", a*a*a);
+	}
+}
+```
+## 第5題 進階題 判斷平方數 
+```c
+#include <stdio.h>
+int main()
+{
+	int n, ans=0;
+	scanf("%d", &n);
+	for(int i=1; i<n; i++){
+		if(i*i==n)ans=i;
+	}
+	printf("%d", ans);
+}
+```
+## 第6題 進階題 計算質數個數
+```c
+#include <stdio.h>
+
+int main()
+{
+	int a,b; /// a~b之間 有幾個質數
+	scanf("%d%d", &a, &b);
+	
+	int ans = 0;
+ 	int j;
+	/// 質數 , 不會被除了1和自身以外的數整除
+	
+	for(int i=a; i<=b; i++){
+		for(j=2; j<i; j++){
+			if( (i%j) == 0 ) break; ///不是質數
+		}
+		if( j==i ) ans++; /// ( j == i ) 有跑完迴圈 , 是質數
+	} 
+	printf("%d", ans);
+}
+```
+## 第7題 進階題 三數組合 
+```c
+#include <stdio.h>
+int main()
+{
+	int a[3], i, temp, j;
+	for(i=0; i<3; i++){
+		scanf("%d", &a[i]);
+		}
+		for(i=0; i<3; i++){
+			for(j=i+1; j<3; j++){
+			if(a[i]<a[j])
+			{
+				temp=a[j];
+				a[j]=a[i];
+				a[i]=temp;
+				}
+			}
+		}
+		printf("%d", a[0]*100+a[1]*10+a[2]+1);
+}
+```
+## 第8題 基礎題 找千位數 
+```c
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d", &n);
+	n=n/1000;
+	if(n>9)n=n%10;
+	printf("%d", n);
+
+}
+```
+# 第12週 程式 正課
 ## UVA10062 告訴我頻率
 ### step1 Input Output 完成
 ```C
