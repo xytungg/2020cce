@@ -48,3 +48,22 @@ void mousePresseed(){
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week15/week15-3.png)
+## step4 把第01,02,03合併 以step02為主 插入step03的宣告、初始化、play播放 但每秒播60次 很吵
+```c
+//從第2步的程式開始增加!
+import processing.sound.*;
+SoundFile player;
+void setup(){//設定 只做一次
+  size(400,200);
+  textSize(40);
+  player = new SoundFile(this, "tada.mp3");
+}
+void draw(){//畫圖 每秒60次
+  background( 23, 94, 32);
+  int s = second();//秒鐘
+  //text(59-s , 100, 100);
+  text(9-s%10, 100, 100);
+  if(9-s%10 == 0 ) player.play();
+}
+```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week15/week15-4.png)
