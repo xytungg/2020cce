@@ -1,4 +1,131 @@
-# 第13週
+# 第13週程式(實習課)
+## 第1題 進階題：求11 +22+33+…+nn。
+```c
+#include <stdio.h>
+int main()
+{
+	int n, ans=0;
+	scanf("%d", &n);
+	for(int i=1; i<=n; i++){
+		ans=ans+i*10+i;
+	}
+	printf("%d", ans);
+}
+```
+## 第2題 進階題 求兩數之最大公因數
+```c
+#include<iostream>
+using namespace std;
+int GCD(int a, int b){
+	int m, ans=1;
+	if(a<b)m=a;
+	else m=b;
+	for(int i=2; i<=m; i++){
+		if(a%i==0 && b%i==0) ans=i;
+	}
+	return ans;
+}
+int main(){
+  int a,b;cin>>a>>b;
+  cout<<GCD(a,b)<<endl;
+  return 0;
+}
+```
+## 第3題 進階題 區間測速-超速之王 
+```c
+#include <stdio.h>
+int main()
+{
+	int min, a, index=1;
+	scanf("%d", &min);
+	for(int i=2; i<=10; i++){
+		scanf("%d", &a);
+		if(min>a){
+			min=a;
+			index=i;
+		}
+	}
+	int s=60*60*1.2/min;
+	printf("%d %d", index, s);
+}
+```
+## 第4題 進階題 10數排序，從大到小排好 
+```c
+#include <stdio.h>
+int main()
+{
+	int a[10];
+	int temp;
+	for(int i=0; i<10; i++){
+		scanf("%d", &a[i]);
+	}
+	for(int i=0; i<10; i++){
+		for(int j=i+1; j<10; j++){
+			if(a[i]<a[j]){
+				temp=a[i];
+				a[i]=a[j];
+				a[j]=temp;
+			}
+		}
+	}
+	for(int i=0; i<10; i++){
+		printf("%d ", a[i]);
+	}
+}
+```
+## 第5題 基礎題 正整數平方總和 
+```c
+#include <stdio.h>
+int main()
+{
+	int n, ans=0;
+	scanf("%d", &n);
+	for(int i=1; i<=n; i++){
+		ans=ans+i*i;
+	}
+	printf("%d", ans);
+}
+```
+## 第6題 進階題 兩數之間的3倍數總和 
+```c
+#include <stdio.h>
+int main()
+{
+	int a, b, ans=0;
+	scanf("%d%d", &a, &b);
+	for(int i=a; i<=b; i++){
+		if(i%3==0)ans=ans+i;
+	}
+	printf("%d", ans);
+}
+```
+## 第7題 基礎題 判斷座標的象限 
+```c
+#include <stdio.h>
+int main()
+{
+	int a, b;
+	scanf("%d%d", &a, &b);
+	if(a>0 && b>0) printf("1\n");
+	else if(a<0 && b>0) printf("2\n");
+	else if(a<0 && b<0) printf("3\n");
+	else if(a>0 && b<0) printf("4\n");
+}
+```
+## 第8題 基礎題 輸入n (n>0)， 求n之所有因數和
+```c
+#include <stdio.h>
+int main()
+{
+	int n, ans=0;
+	scanf("%d", &n);
+	for(int i=1; i<=n; i++){
+		if(n%i==0)ans=ans+i;
+	}
+	printf("%d", ans);
+}
+```
+# 第13週程式(正課)
 ## 互動程式設計 (遊戲、工具)—倒數計時器
 ### step1 開啟Processing,使用size()還有background()開出有背景色的窗,可用小畫家編輯色彩
 ```c
