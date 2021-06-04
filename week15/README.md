@@ -67,3 +67,23 @@ void draw(){//畫圖 每秒60次
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week15/week15-4.png)
+## step5 要有更好的聲音播放,所以if( player.isPlaying() )時,要stop(), 否則 play(), 記得要放bell 換bell mp3哦
+```c
+import processing.sound.*;
+SoundFile player;
+void setup(){//設定 只做一次
+  size(400,200);
+  player = new SoundFile(this, "bell.mp3");
+}
+void draw(){//畫圖 每秒60次
+  background( 23, 94, 32);
+}
+void mousePressed(){
+  if(player.isPlaying() ){
+  player.stop();
+  }else{
+  player.play(); 
+  }
+}
+```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week15/week15-5.png)
