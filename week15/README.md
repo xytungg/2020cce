@@ -13,6 +13,7 @@ int main()
 	}
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week15/week15-1(%E5%AF%A6).png)
 ## 第2題 進階題 秒數換算 
 ```
 #include <stdio.h>
@@ -23,7 +24,7 @@ int main()
 	printf("%02d:%02d:%02d", n/(60*60), (n/60)%60, n%60);
 }
 ```
-
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week15/week15-2(%E5%AF%A6).png)
 ## 第3題 基礎題 水杯接水 
 ```c
 #include <stdio.h>
@@ -36,6 +37,7 @@ int main()
 
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week15/week15-3(%E5%AF%A6).png)
 ## 第4題 基礎題 平面兩座標的面積
 ```c
 #include <stdio.h>
@@ -49,6 +51,7 @@ int main()
 	printf("%d", ans);
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week15/week15-4(%E5%AF%A6).png)
 ## 第5題 基礎題 整數向量相加 
 ```c
 #include <stdio.h>
@@ -65,6 +68,7 @@ int main()
 	}
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week15/week15-5(%E5%AF%A6).png)
 # 第15週 程式(正課)
 ## step1 複習倒數計時 second()秒鐘 textSize()字型大小 test()畫出字 setup()做一次 draw()每秒做60次
 ```c
