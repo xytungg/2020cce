@@ -16,7 +16,34 @@ int main()
 
 }
 ```
+## 第2題 進階題 字串長度 
+```c
+#include <stdio.h>
+#include <string.h>
+char a[100], b[100];
+/*int compare(const void *lena, const void *lenb){
+	return strcmp((char*)lena, (char*)lenb );
+}*/
 
+int main()
+{
+	int lena, lenb;
+	scanf("%s %s", &a, &b);
+	
+	lena= strlen(a);//字串a的長度
+	lenb= strlen(b);//字串b的長度
+	
+	if ( lena>lenb ) printf("1");
+	else if ( lena>lenb ) printf("-1");
+	else printf("%d", strcmp(a, b));
+}
+```
+## 第3題 進階題 函數判斷質數
+## 第4題 進階題 判斷迴文
+## 第5題 基礎題 計算餘數及列印
+## 第6題 基礎題 判別正方形 
+## 第7題 基礎題 將一連串整數相乘 
+## 第8題 基礎題 平年月份的天數 
 # 第10週 程式 (正課)
 ## 顆星廣場 一顆星 10226 統計樹名
 ### step1 讀資料
