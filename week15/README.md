@@ -87,3 +87,16 @@ void mousePressed(){
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week15/week15-5.png)
+## step6 開新程式 切換成p5 js模式 利用 MaKey教授的網頁 將processing to p5 js converter轉換 貼上 執行 就會開網頁
+```c
+function setup(){//設定 只做一次
+  createCanvas(400,200);
+  textSize(40);
+}
+function draw(){//畫圖 每秒60次
+  background( 23, 94, 32);
+  let s = second();//秒鐘
+  text(s, 100, 100);
+}//任務 step2 (思考)倒數
+```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week15/week15-6.png)
