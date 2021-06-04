@@ -1,3 +1,22 @@
+# 第10週程式(實習課)
+## 第1題 進階題 最大公因數gcd 
+```c
+#include <stdio.h>
+int main()
+{
+	int a, b, ans;
+	scanf("%d%d", &a, &b);
+	for(int i=10000; i>0; i--){
+		if( a%i==0 && b%i==0){
+		ans=i;
+		break;
+		}
+	}
+	printf("Enter two integers: \nThe greatest common divisor of %d and %d is %d\n", a, b, ans);
+
+}
+```
+
 # 第10週 程式 (正課)
 ## 顆星廣場 一顆星 10226 統計樹名
 ### step1 讀資料
