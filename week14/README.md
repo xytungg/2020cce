@@ -15,6 +15,7 @@ int main()
 
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week14/week14-1(%E5%AF%A6).png)
 ## 第2題 基礎題 大位王 
 ```c
 #include <stdio.h>
@@ -31,6 +32,7 @@ int main()
 	
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week14/week14-2(%E5%AF%A6).png)
 ## 第3題 基礎題 輸入西元y年，判斷該y年是否為閏年 
 ```c
 #include <stdio.h>
@@ -42,6 +44,7 @@ int main()
 	else printf("%d is not a leap year.\n", y);
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week14/week14-3(%E5%AF%A6).png)
 ## 第4題 基礎題 把數字倒著印出來 
 ```c
 #include <stdio.h>
@@ -56,6 +59,7 @@ int main()
 	}
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week14/week14-4(%E5%AF%A6).png)
 ## 第5題 基礎題 區間測速
 ```c
 #include <stdio.h>
@@ -70,6 +74,7 @@ int main()
 	}
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week14/week14-5(%E5%AF%A6).png)
 # 第14週程式(正課)
 ## 好玩的抽籤
 ### step1 在 setup()設定裡, 用亂數random(60)取出小於60的數,用text()印出來,textSize()字大小設大一些
