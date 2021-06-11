@@ -9,7 +9,22 @@ void draw(){//畫,每秒60次
   ellipse(50, 50, 80, 80);
 }//      畫圖 圓心 寬  高
 ```
-
+## step2
+```c
+void setup(){//設定,每秒60次
+  size(400, 200);
+}
+void draw(){//畫,每秒60次
+  background(23, 94, 32);//RGB
+  fill(255);//白
+  ellipse(100, 100, 180, 180);
+ //      畫圖 圓心 寬  高
+  fill(255, 0, 0);//紅
+  float stop=mouseX/50.0;
+  text(stop, 200, 100);
+  arc(100, 100, 180, 180, 0, stop);
+}
+```
 
 
 
