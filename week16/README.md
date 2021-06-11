@@ -48,9 +48,23 @@ void draw(){
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week16/week16-3.png)
-## step4
+## step4 了解arc()裡的start,stop要用radians單位後,我們利用 shift移動量的變數,讓它每秒轉動60度,利用radians()換算角度
 ```c
-
+void setup(){
+  size(400, 200);
+  fill(250, 0, 0);
+  textSize(40);
+}
+float shift=0;
+void draw(){
+  background(23, 94, 32);
+  //float start = radians(90+mouseX);
+  //float stop = radians(180+mouseX);
+  float start = radians(90+shift);
+  float stop = radians(180+shift);
+  arc(100, 100, 180, 180, start, stop);
+  shift+=1;
+}
 ```
 ![image]()
 ## step5
