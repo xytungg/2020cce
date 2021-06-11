@@ -66,7 +66,7 @@ void draw(){
   shift+=1;
 }
 ```
-![image]()
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week16/week16-4.png)
 ## step5
 ```c
 
