@@ -47,7 +47,7 @@ void draw(){
   arc(100, 100, 180, 180, radians(90), radians(180));
 }
 ```
-![image]()
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week16/week16-3.png)
 ## step4
 ```c
 
