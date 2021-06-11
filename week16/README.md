@@ -18,7 +18,7 @@ void draw(){//畫,每秒60次
 }//      畫圖 圓心 寬  高
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week16/week16-1.png)
-## step2
+## step2 使用arc()來畫圓弧,參數和ellipse很像,圓心,寬,高,後面start,stop利mouseX除50.0 來輔助了解PI 3.14 就是半圓,換了色彩才看得清楚
 ```c
 void setup(){//設定,每秒60次
   size(400, 200);
