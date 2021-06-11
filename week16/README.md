@@ -35,8 +35,32 @@ void draw(){//畫,每秒60次
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week16/week16-2.png)
-## step3
+## step3 老師解釋 度degrees 及 弧度radians 的差別, 並且改用 radians()函式,來幫助你理解 start 和 stop 代表開始角度、結束角度 
 ```c
+void setup(){
+  size(400, 200);
+  fill(250, 0, 0);
+  textSize(40);
+}
+void draw(){
+  background(23, 94, 32);
+  arc(100, 100, 180, 180, radians(90), radians(180));
+}
+```
+![image]()
+## step4
+```c
+
+```
+![image]()
+## step5
+```c
+
+```
+![image]()
+## step6
+```c
+
 ```
 ![image]()
 
