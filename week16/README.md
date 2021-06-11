@@ -9,6 +9,7 @@ void draw(){//畫,每秒60次
   ellipse(50, 50, 80, 80);
 }//      畫圖 圓心 寬  高
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week16/week16-1.png)
 ## step2
 ```c
 void setup(){//設定,每秒60次
@@ -25,7 +26,11 @@ void draw(){//畫,每秒60次
   arc(100, 100, 180, 180, 0, stop);
 }
 ```
-
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week16/week16-2.png)
+## step3
+```c
+```
+![image]()
 
 
 
