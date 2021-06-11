@@ -117,6 +117,34 @@ void draw(){
 }
 ```
 ![image](https://github.com/xytungg/2020cce/blob/gh-pages/week16/week16-6.png)
-
-
+## step7 利用for迴圈,畫出24片小Pizza,會組合成很大的pizza,分別利用if(餘數)來填上不同的顏色,start及stop的計算看起來很複雜,其實就是把整個圓蓋起來mouse就會有新的轉動速度,也把停止速度改一下。+5是為了讓v介於5-15之間
+```c
+void setup(){
+  size(400,200);
+  fill(255,0,0);
+  textSize(40);
+}
+float shift=0, v=0;
+void mousePressed(){
+  v = random(10)+5;
+}  
+void draw(){
+  background(23, 94, 32);
+  for(int i=0; i<24 ; i++ ){
+    if( i%3==0 ) fill(0);
+    if( i%3==1 ) fill(255);
+    if( i%3==2 ) fill(200,180,0);
+    float start = radians(    0+shift+i*360/24);
+    float stop = radians(360/24+shift+i*360/24);
+    arc(100,100,180,180, start , stop );
+  }
+  if(v>0.01){
+    shift+=v;//轉動速度
+    v = v*0.99;//速度會慢慢減速
+  }    
+    text(shift, 200, 100);//印出shift
+    text(v, 200, 150);//印出轉動的速度
+}
+```
+![image](https://github.com/xytungg/2020cce/blob/gh-pages/week16/week16-7.png)
 
