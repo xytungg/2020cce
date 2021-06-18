@@ -92,5 +92,33 @@ void keyPressed(){
 }
 ```
 ![image](https://github.com/xytungg/2020cce/blob/gh-pages/week17/week17-2.3.png)
-## 
+## step3-1
+```
+void setup(){//設定,只做一次
+  size(400,200);
+  textSize(40);
+}
+String line="";
+String Q = "hello";
+void draw(){//每秒60次
+  background(23, 94, 32);
+  text("Score: "+ score, 100, 50);
+  text( "Q: "+Q,     100, 100);
+  text( "A: "+line , 100, 150);
+}
+int score=0;
+void keyPressed(){
+  int len = line.length();
+  if( key>='a' && key<='z') line = line + key;//小寫鍵
+  if( key>='A' && key<='Z') line = line + key;//大寫鍵
+  if( key == BACKSPACE && len>0) line = line.substring(0, len-1);
+  if( key == ENTER ){//算分數
+    if(line.equals(Q)==true ){
+      score ++;
+    }else score --;
+  }
+}
+```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week17/week17-3.1.png)
+## step3-1 為了要算分數,我們在 keyPressed()裡,加入 if(key==ENTER) 去算分數。算分數要用字串比對 line.equals(Q)==true 成立時,score++, 否則 score-- 再印出分數
 ![image]()
