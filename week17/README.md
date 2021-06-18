@@ -80,6 +80,7 @@ String line="";
 String Q = "hello";
 void draw(){//每秒60次
   background(23, 94, 32);
+  int len = line.length();text( len, 100,50);
   text( "Q: "+Q,     100, 100);
   text( "A: "+line , 100, 150);
 }
