@@ -12,6 +12,7 @@ void draw(){//每秒60次
   text( line , 100, 150);
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week17/week17-1.1.png)
 ## step1-2 利用字串的+可以把2個字串接起來變比較長的字串,同時在mousePressed()裡,line=line+新的字母,也能變長
 ```
 void setup(){//設定,只做一次
@@ -29,3 +30,6 @@ void mousePressed(){
   line =line + "a"; 
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week17/week17-1.2.png)
+## step2 
+![image]()
