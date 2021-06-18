@@ -120,5 +120,34 @@ void keyPressed(){
 }
 ```
 ![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week17/week17-3.1.png)
-## step3-2
-![image]()
+## step3-2 利用陣列,來讓題目變更多。 String [] Q = {好多字串} 再配 int Qi=0 來挑選 Q[Qi] 的字來考試, 答對時 Qi++ 並加分, 小心,Qi太大會當掉哦
+```
+void setup(){//設定,只做一次
+  size(400,200);
+  textSize(40);
+}
+String line="";
+String []Q = { "hello", "world", "other"};
+int Qi=0;
+void draw(){//每秒60次
+  background(23, 94, 32);
+  text("Score: "+ score, 100, 50);
+  text( "Q: "+Q[Qi], 100, 100);
+  text( "A: "+line , 100, 150);
+}
+int score=0;
+void keyPressed(){
+  int len = line.length();
+  if( key>='a' && key<='z') line = line + key;//小寫鍵
+  if( key>='A' && key<='Z') line = line + key;//大寫鍵
+  if( key == BACKSPACE && len>0) line = line.substring(0, len-1);
+  if( key == ENTER ){//算分數
+    if(line.equals(Q[Qi])==true ){
+      score ++;
+      Qi++;//換下一筆 Q[0]變 Q[1]
+      line = "";
+    }else score --;
+  }
+}//Q: 算分數!(陣列)更多的題目!亂數跳題!
+```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week17/week17-3.2.png)
