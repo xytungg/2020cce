@@ -90,6 +90,6 @@ void keyPressed(){
   if( key == BACKSPACE && len>0) line = line.substring(0, len-1);
 }
 ```
-![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week17/week17-2.3.png)
+![image](https://github.com/xytungg/2020cce/blob/gh-pages/week17/week17-2.3.png)
 ## 
 ![image]()
