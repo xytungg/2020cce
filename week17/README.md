@@ -48,6 +48,6 @@ void keyPressed(){
   line =line + key; 
 }
 ```
-![image]()
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week17/week17-2.1.png)
 ## step2-2
 ![image]()
