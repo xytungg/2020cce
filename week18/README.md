@@ -9,6 +9,7 @@ void setup(){//設定,只做一次
   println( Capture.list() );
 }//會印出你電腦的全部視訊鏡頭
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week18/week18-1.png)
 ### step2 接著step01,補上幾行。cam = New Capture(this, 視訊名字); cam.start(); 在void setup()裡 if( cam.available() )  cam.read() 讀視訊, 再用 set(0,0,cam)畫到畫面
 ```
 import processing.video.*;//開video外掛
@@ -24,6 +25,7 @@ void draw(){
   set( 0, 0, cam);
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week18/week18-2.png)
 ## 互動程式設計 螢幕錄影 截圖
 ### step1
 ```
@@ -42,6 +44,7 @@ void draw(){
 }
 
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week18/week18-3.png)
 ## 撲克牌
 ```
 String []face={"Spade","Heart","Dimand","Club"};
@@ -79,3 +82,4 @@ void mousePressed(){
   shuffleCard();
 }
 ```
+![image](https://raw.githubusercontent.com/xytungg/2020cce/gh-pages/week18/week18-4.png)
